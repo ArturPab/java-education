@@ -17,15 +17,18 @@ public class AccountHolder implements Runnable{
     }
 
     private synchronized void makeWithdraw(int withdrawAmount) {
-        if(account.getBalance()>=withdrawAmount) {
+        if(isAccountBalanceEnough(withdrawAmount)) {
             printActivity(withdrawAmount, " is going to withdraw $");
-
             pauseExecution();
             account.withdraw(withdrawAmount);   // withdrawing money
             printActivity(withdrawAmount, " succesfully withdrawn $");
         } else {
             System.out.println("Not enough money to withdraw $" + withdrawAmount + " for " + Thread.currentThread().getName());
         }
+    }
+
+    private boolean isAccountBalanceEnough(int withdrawAmount) {
+        return account.getBalance()>= withdrawAmount;
     }
 
 
