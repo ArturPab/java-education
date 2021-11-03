@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/java-education.iml" filepath="$PROJECT_DIR$/java-education.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lambda/lambda.iml" filepath="$PROJECT_DIR$/lambda/lambda.iml" />
     </modules>
   </component>
 </project>
