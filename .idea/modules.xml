@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RemoveProgram/RemoveProgram.iml" filepath="$PROJECT_DIR$/RemoveProgram/RemoveProgram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/for-loop/for-loop.iml" filepath="$PROJECT_DIR$/for-loop/for-loop.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-education.iml" filepath="$PROJECT_DIR$/java-education.iml" />
       <module fileurl="file://$PROJECT_DIR$/lambda/lambda.iml" filepath="$PROJECT_DIR$/lambda/lambda.iml" />
       <module fileurl="file://$PROJECT_DIR$/regex/regex.iml" filepath="$PROJECT_DIR$/regex/regex.iml" />
